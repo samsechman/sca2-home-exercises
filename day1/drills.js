@@ -1,14 +1,24 @@
-const assert = require("assert")
+const assert = require("assert");
+const { finished } = require("stream");
 
 // Feel free to look things up online!
 
 const reverse = function(str) {
+  let strList = ser.split("");
+  let strListReverse = strList.Reverse("");
+  let strReverse = strListReverse.Join("");
+  return strReverse
   // TODO - write a function which reverses the string
 }
 
 const factorial = function(num) {
+  let finshed = 1;
+  for(let i = 0; i == num; i++){
+    finished *= i;
+  return finished
   // TODO - write a function which returns the factorial of a positive integer
   // For example, 5! = 5 * 4 * 3 * 2 * 1 = 120
+  }
 }
 
 const announceDate = function() {
@@ -17,11 +27,28 @@ const announceDate = function() {
 }
 
 const shiftRight = function(str, num) {
+  let str1 = str2.spilt("");
+
+  let str3 = str1.slice(-num);
+
+  let str6 = str1.splice(0, num);
+
+  let move = str3.push();
+
+  move.push(str6);
+
+  let shiftnum = move.push("");
+  return shiftnum
+  
   // TODO - write a function which shifts a string `num` characters to the right
-  // Example = shiftThree("Hello") === "lloHe"
+  // Example = shiftRight("Hello, 3") === "lloHe"
 }
 
+
+//console.log(shiftRight(hello, 3))
+
 const tokenize = function(str) {
+  let str5 = str4
   // TODO - write a function which converts a multi-word string into an array of words
 }
 
